@@ -10,7 +10,7 @@ namespace Lab9.Green
         public (char, double)[] Output => _output;
         public Task1(string text) : base(text)
         {
-            _output = Array.Empty<(char, double)>();
+            
         }
 
         private (char, double)[] Resenie()
